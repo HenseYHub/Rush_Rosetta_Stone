@@ -1,0 +1,9 @@
+O_RDONLY = Open Read Only
+
+
+TEST_READ.c
+open() opens the dictionary and returns a file descriptor.
+read() reads bytes from this file descriptor into a buffer.
+We use a loop because the buffer cannot contain the whole file.
+read() returns zero when it reaches the end of the file.
+Finally, close() closes the file descriptor.
