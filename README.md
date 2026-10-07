@@ -9,3 +9,4 @@ For example:
 
 ```bash
 ./rush-02 42
+forty two
